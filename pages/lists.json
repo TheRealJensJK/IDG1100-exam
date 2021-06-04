@@ -1,6 +1,4 @@
-
-{
-"assosiates":[
+[
     {
         "name": "Brigette",
         "age": "29",
@@ -102,4 +100,3 @@
         "relation": "Friend"
     }
 ]
-}
