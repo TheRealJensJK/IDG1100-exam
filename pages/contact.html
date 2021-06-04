@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Personal contact page for Jens Nicklsen">
+<meta name="author" content="Jens Nickelsen">
+<title>Contact</title>
+	<link rel="stylesheet" href="../assets/Style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/Sosial-media-style.css">
+</head>
+
+<body onload="setLocalStorageValues()">
+	<!-- Navbar -->
+	<nav>
+		<ul class="ul">
+			<li class="li"><a href="index.html" class="lia">Home</a></li>
+			<li class="li"><a href="quiz.html" class="lia">Quiz</a></li>
+			<li class="li"><a href="lists.html" class="lia">Lists</a></li>
+			<li class="li"><a href="contact.html" class="active lia">Contact</a></li>
+		</ul>
+	</nav>
+
+<!-- Main container or page content -->
+<div class="main">
+	
+	<!-- information on the contact page is stored in localStorage and extracted from it and printed on the page-->
+	<script>
+	
+	function setLocalStorageValues(){
+    
+		localStorage.setItem('fistName', 'Jens');
+		localStorage.setItem('lastName', 'Nickelsen');
+		localStorage.setItem('age', '19 years old');
+		localStorage.setItem('email', 'jensnic@stud.ntnu.no');
+		localStorage.setItem('address', 'Elvesvingen 2a');
+		localStorage.setItem('city', 'Raufoss');
+
+		var firstName = localStorage.getItem('fistName');
+		var lastName = localStorage.getItem('lastName');
+		var age = localStorage.getItem('age');
+		var email = localStorage.getItem('email');
+		var address = localStorage.getItem('address');
+		var city = localStorage.getItem('city');
+
+		document.getElementById("firstName").innerHTML = firstName;
+		document.getElementById("lastName").innerHTML = lastName;
+		document.getElementById("age").innerHTML = age;
+		document.getElementById("email").innerHTML = email;
+		document.getElementById("address").innerHTML = address;
+		document.getElementById("city").innerHTML = city;
+	}
+
+	</script>
+	
+	<!-- Row container for image and name -->
+	<div class="row">
+		<img src="../img/jens-nickelsen-portrait.png" alt="Picture of Jens Nickelsen in Spain" class="contactimg">
+		<h1 id="firstName"></h1>
+		<h1 id="lastName"></h1>
+		
+		<h2 id="age"></h2>
+		<h2 id="email"></h2>
+		<h2 id="address"></h2>
+		<h2 id="city"></h2>
+	</div>
+	
+	
+	<!-- Row container for sosial media liks and contact info -->
+	<div class="row">
+		<h2>Reatch me on sosial media</h2>
+		<div class="sosial">
+			
+			<!-- Using sosial media default pages -->
+			<a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://youtube.com" target="_blank" class="fa fa-youtube"></a>
+			<a href="https://instagram.com" target="_blank" class="fa fa-instagram"></a>
+			<a href="https://snapchat.com" target="_blank" class="fa fa-snapchat-ghost"></a>
+			<a href="https://reddit.com" target="_blank" class="fa fa-reddit"></a>
+		</div>
+		
+	</div>
+	
+	
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Personal portfolio page for Jens Nicklsen">
+<meta name="author" content="Jens Nickelsen">
+<title>Quiz</title>
+	<link rel="stylesheet" href="../assets/Style.css">
+	
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav>
+		<ul class="ul">
+			<li class="li"><a href="index.html" class="lia">Home</a></li>
+			<li class="li"><a href="quiz.html" class="active lia">Quiz</a></li>
+			<li class="li"><a href="lists.html" class="lia">Lists</a></li>
+			<li class="li"><a href="contact.html" class="lia">Contact</a></li>
+		</ul>
+	</nav>
+	
+<!-- Main container for site content -->
+<div class="main">
+	<header>
+		<h1>Quiz time!</h1>
+		<p>Time to show everyone how good you are at quizes!</p>
+	</header>
+	
+	<script src="quizScript.js" type="text/javaScript"></script>
+  
+	<table style="width:583px">
+	<tr>
+	  	<td>
+	  		<div>
+	  			<p class="question">1. What is the capital of Chile?</p>
+
+				<ul>
+					<input class="answer" type="radio" name="q1" value="1">
+					<label id="correctString1">Santiago</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Berlin</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Bogota</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Laos</label>
+				</ul>
+	  		</div>
+	  </td>
+	  <td>
+	  		<div>
+				<p class="question">2. What did the Romans call Scotland?</p>
+
+				<ul>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Scotland</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="1">
+					<label id="correctString2">Caledonia</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Britain</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Northen England</label>
+				</ul>
+	  		</div>
+	  	</td>
+	</tr>
+	<tr>
+	  	<td>
+	  		<div>
+				<p class="question">3. Which singer was known amongst other things as 'The King of Pop'?</p>
+
+				<ul>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>A-ha</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="1">
+					<label id="correctString3">Michael Jackson</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>Justin Bieber</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>Lady Gaga</label>
+				</ul>
+			</div>
+	  </td>
+	  <td>
+	  		<div>
+				<p class="question">4. How many world titles has Lewis Hamilton won in F1?</p>
+
+				<ul>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>1</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="1">
+					<label id="correctString4">7</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>3</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>5</label>
+				</ul>
+	  		</div>
+	  	</td>
+	</tr>
+	<tr>
+		<td>
+			<div>
+				<p class="question">5. What is the most famous Mexican beer?</p>
+  
+				<ul>
+					<input class="answer" type="radio" name="q5" value="0">
+					<label>Modelo Especial</label>
+					<br>
+					<input class="answer" type="radio" name="q5" value="0">
+					<label>Dos Equis Lager</label>
+					<br>
+					<input class="answer" type="radio" name="q5" value="1">
+					<label id="correctString5">Corona</label>
+					<br>
+					<input class="answer" type="radio" name="q5" value="0">
+					<label>Estrella Jaliscor</label>
+				</ul>
+			</div>
+		</td>
+	</tr>
+	</table>
+	<br/>
+  	<div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()" type="submit" value="Submit awnsers"/>
+    </div>
+  
+	<!-- placeholders for showing wrong awnsers -->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	<div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+	<div class="quizAnswers" id="correctAnswer5"></div>
+
+	<!-- div to print score in a "x / 5" format -->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+	
+</div>
+	
+</body>
+</html>

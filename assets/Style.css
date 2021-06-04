@@ -1,0 +1,214 @@
+/* CSS Document */
+
+
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+}
+
+h2, h1{
+	text-align: center;
+	Margin: 0;
+}
+
+p{
+	letter-spacing: .02em;
+	padding: 25px;
+}
+
+div.content p {
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+/* .ul, .li and .lia is the styling for the navbar */
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#4B4B4B;
+}
+
+.li {
+  float: left;
+}
+
+.lia {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* setting a hover effect over the navbar elements */
+li a:hover:not(.active) {
+  background-color: #686868;
+}
+
+/* Setting the font size on the p and li elements */
+p, li {
+	font-size: 20px;
+}
+
+p span {
+	display: inline;
+}
+
+/* setting the images in a figure to a hight of 30 em and using width auto to keep the aspect ratio */
+figure > img {
+	width: auto;
+	height: 30em;
+	display: block;
+}
+
+figcaption {
+	float: right;
+}
+
+/* active is used to overlay the colour of the active tab in the navbar */
+.active {
+  background-color:#4682B4;
+}
+
+/* main is used for containing all the elements in outside the header */
+.main {
+	overflow: auto;
+	padding: 1em;
+	margin: 1em 2em;
+	background-color: darkgrey;
+}
+
+/* colunm2 is used to split the screen between two elements */
+.colunm2 {
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	float: left;
+}
+
+/* .row is used to get content sutch as an image and text of a project, om the same line and divided from ther projects */
+.row {
+	clear: both;
+	width: 99%;
+	padding: 10px;	
+	margin-top: 1em;
+	height: auto;
+}
+
+/* Styling of the img on the contact page */
+.contactimg {
+	display: block;
+	height: auto;
+	width: 30%;	
+	border-radius: 500px;
+	margin: 10px 35% 20px 35%;
+}
+
+/* Styling of the image on the home screen */
+.homeimg {
+	width: 40%;
+	display: block;
+	margin: 0 30%;
+	border-radius: 5px;
+}
+
+/* Centering the sosial media link icons */
+.sosial {
+	text-align: center;
+}
+
+/* Styling of enteries in the cv */
+.entry {
+	width:50%;
+	display: block;
+	padding: 0.5em 1em;
+	clear: both;
+	margin-left:4px;
+	background-color: lightgrey;
+}
+
+
+
+/* Styling the quiz section */ 
+p.question {
+	font-family: Arial, sans-serif;
+	font-size:20px;
+	color: #2E2E2E;
+	margin-bottom:0px;
+}
+  
+h2.quizHeader {
+	font-family: Arial, sans-serif;
+	font-weight:normal;
+	font-size:25px;
+	line-height: 27px;
+	margin: 24px 0 12px 0;
+	padding: 0 0 4px 0;
+	border-bottom: 1px solid #a2a2a2;
+  }
+  
+h2.quizScore{
+	font-family: Arial, sans-serif;
+	font-size:25px;
+}
+  
+div.quizAnswers{
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	color: #424242;
+	padding: 4px 0 4px 0;
+}
+  
+label {
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	color: #424242;
+	vertical-align:top;
+}
+  
+input.answer[type="radio"] {
+	margin-bottom: 10px;
+}
+  
+input.quizSubmit[type="submit"] {
+	box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+	color: #ffffff;
+	background-color: #4682B4;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	text-transform:uppercase;
+	height:45px;
+	border: 1px solid #5E5E5E;
+	border-radius:5px;
+	
+}
+  
+input.quizSubmit[type="submit"]:hover {
+	color: #ffffff;
+	background: #305675;
+	text-decoration: none;
+}
+  
+table {
+	background-color: #F2F2F2;
+	border:1px solid #BDBDBD;
+	border-radius:5px;
+	padding:10px;
+	padding-left:25px;
+	box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
+}
+  
+.submitter {
+	width:85px;
+}
+  
+.hide {
+		display:none;
+}

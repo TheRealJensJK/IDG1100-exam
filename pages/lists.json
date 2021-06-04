@@ -1,0 +1,105 @@
+
+{
+"assosiates":[
+    {
+        "name": "Brigette",
+        "age": "29",
+        "relation": "Friend"
+    },
+    {
+        "name": "Iris",
+        "age": "22",
+        "relation": "Friend"
+    },
+    {
+        "name": "Edwardo",
+        "age": "21",
+        "relation": "Family"
+    },
+    {
+        "name": "Jacinda",
+        "age": "56",
+        "relation": "Family"
+    },
+    {
+        "name": "Morris",
+        "age": "47",
+        "relation": "Family"
+    },
+    {
+        "name": "Bill",
+        "age": "33",
+        "relation": "Friend"
+    },
+    {
+        "name": "Gilbert",
+        "age": "20",
+        "relation": "Friend"
+    },
+    {
+        "name": "Cory",
+        "age": "19",
+        "relation": "Friend"
+    },
+    {
+        "name": "Zack",
+        "age": "31",
+        "relation": "Friend"
+    },
+    {
+        "name": "Garry",
+        "age": "60",
+        "relation": "Family"
+    },
+    {
+        "name": "Tomas",
+        "age": "25",
+        "relation": "Friend"
+    },
+    {
+        "name": "George",
+        "age": "55",
+        "relation": "Family"
+    },
+    {
+        "name": "Mervin",
+        "age": "34",
+        "relation": "Friend"
+    },
+    {
+        "name": "Antone",
+        "age": "56",
+        "relation": "Friend"
+    },
+    {
+        "name": "Hannah",
+        "age": "20",
+        "relation": "Friend"
+    },
+    {
+        "name": "Erick",
+        "age": "21",
+        "relation": "Friend"
+    },
+    {
+        "name": "Rebecca",
+        "age": "23",
+        "relation": "Friend"
+    },
+    {
+        "name": "Signe",
+        "age": "18",
+        "relation": "Family"
+    },
+    {
+        "name": "Loura",
+        "age": "34",
+        "relation": "Family"
+    },
+    {
+        "name": "Venessa",
+        "age": "26",
+        "relation": "Friend"
+    }
+]
+}
